@@ -40,5 +40,5 @@ Emotion Classification: Comparing Bert and LSTM
 
 实验使用的数据集是有标注的对于不同种类商品的评价汉语语料，每类共10000条。使用其中9000条进行训练，1000条测试，得到的结果如下表所示。
 
-
+[知识蒸馏1.pdf](img/知识蒸馏1.pdf) 
 
