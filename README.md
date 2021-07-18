@@ -6,6 +6,20 @@ Emotion Classification: Comparing Bert and LSTM
 
 参考论文《Distilling Task-Specific Knowledge from BERT into Simple Neural Networks》
 
+### 方法介绍
+
+知识蒸馏框架图：
+
+![KD](img/KD.png)
+
+Teacher 网络使用 Bert 作为核心进行微调和推理
+
+![bert](img/bert.png)
+
+Student 网络使用的其中两种 LSTM 网络 - 左侧是双向 LSTM 网络，右侧是双层 LSTM 网络。
+
+![LSTM](img/LSTM.png)
+
 ### 使用方法
 
 需要先下载 [word2vec](https://drive.google.com/file/d/1LgdxEJ78Y3BnHPeQLjnwLLVzz_oI760r/view?usp=sharing) 文件到 `/data/cache/` 文件夹下。
